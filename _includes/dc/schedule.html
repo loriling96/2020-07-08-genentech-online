@@ -12,15 +12,17 @@ The schedule for the different curricula are listed here:
   <div class="col-md-6">
     <h3>Week 1</h3>
     <table class="table table-striped">
-	<tr> <td>July 8</td> <td>Day 1</td> </tr>    
+	<tr> <td>July 8</td> <td>Intro to Carpentries, Before We Start, Intro to R</td> </tr>    
       <tr>
 	<td>Before starting</td>
 	<td><a href="{{ site.pre_survey }}{{ site.github.project_title }}" target="_blank">Pre-workshop survey</a></td>
       </tr>
-      <tr><td>Morning</td> <td> <a href="https://datacarpentry.org/spreadsheet-ecology-lesson/">Data Organization in Spreadsheets</a></td></tr>
-      <tr> <td>July 9</td> <td>Day 2</td> </tr>
+      <tr> <td>July 9</td> <td>Starting with Data, Manipulating Data</td> </tr>
+      <tr> <td>July 10</td> <td>Visualizing Data</td> </tr>
+{% comment %}	    
+      <tr><td>Morning</td> 
+	      <td> <a href="https://datacarpentry.org/spreadsheet-ecology-lesson/">Data Organization in Spreadsheets</a></td></tr>
 	<tr><td> </td><td><a href="https://datacarpentry.org/OpenRefine-ecology-lesson/">OpenRefine for Data Cleaning</a></td></tr>
-      <tr> <td>July 10</td> <td>Day 3</td> </tr>
       <tr>
         <td> </td>
         <td>
@@ -33,12 +35,16 @@ The schedule for the different curricula are listed here:
           {% endif %}
       </td></tr>
       <tr> <td>Evening</td> <td>END</td> </tr>
+{% endcomment %}
     </table>
   </div>
   <div class="col-md-6">
     <h3>Week 2</h3>
     <table class="table table-striped">
-    <tr> <td>July 13</td> <td>Day 4</td> </tr>  
+    <tr> <td>July 13</td> <td>Intermmediate R, more plotting? </td> </tr>
+    <tr> <td>July 15</td> <td>Data Management with SQL</td> </tr>
+    <tr> <td>July 17</td> <td>Cont. SQL, R and SQL</td> </tr>	    
+    {% comment %}
     <tr> <td> </td>
         <td>
           {% if site.flavor == "r" %}
@@ -50,9 +56,8 @@ The schedule for the different curricula are listed here:
           {% endif %}
         </td>
       </tr>
-      <tr> <td>July 15</td> <td>Day 5</td> </tr>
+
       <tr> <td> </td><td><a href="https://datacarpentry.org/sql-ecology-lesson/">Data Management with SQL</a></td></tr>
-      <tr> <td>July 17</td> <td>Day 6</td> </tr>
       <tr>
 	<td>Evening</td>
 	<td><a href="{{ site.post_survey }}{{ site.github.project_title }}" target="_blank">Post-workshop survey</a></td>
@@ -61,6 +66,7 @@ The schedule for the different curricula are listed here:
 	<td> </td>
 	<td> END </td>
       </tr>
+{% endcomment %}    
     </table>
   </div>
 </div>
